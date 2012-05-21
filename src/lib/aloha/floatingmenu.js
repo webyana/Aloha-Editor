@@ -1204,10 +1204,10 @@ function(Aloha, jQuery, Ext, Class, console) {
 			// set visibility of floatingmenu
 			if (floatingMenuVisible && this.extTabPanel.hidden) {
 				// set the remembered position
-				this.extTabPanel.show();
-				this.refreshShadow();
-				this.extTabPanel.shadow.show();
-				this.extTabPanel.setPosition(this.left, this.top);
+				//this.extTabPanel.show();
+				//this.refreshShadow();
+				//this.extTabPanel.shadow.show();
+				//this.extTabPanel.setPosition(this.left, this.top);
 			} else if (!floatingMenuVisible && !this.extTabPanel.hidden) {
 				// remember the current position
 				pos = this.extTabPanel.getPosition(true);
